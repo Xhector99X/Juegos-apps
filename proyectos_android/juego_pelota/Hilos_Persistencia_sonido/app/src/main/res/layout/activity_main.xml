@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="64dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+
+
+    tools:context=".MainActivity"
+
+    style="@style/pantalla">
+
+    <TextView
+        android:id="@+id/texto_botones"
+        style="@style/texto_botones"
+        android:layout_alignLeft="@+id/facil"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-40dp"
+        android:layout_marginTop="222dp" />
+
+    <Button
+        android:id="@+id/facil"
+        style="@style/boton_Dificultad"
+        android:layout_alignBaseline="@+id/dificil"
+        android:layout_marginRight="33dp"
+        android:layout_toLeftOf="@+id/medio"
+        android:text="@string/facil" />
+
+    <Button
+        android:id="@+id/medio"
+        style="@style/boton_Dificultad"
+        android:layout_alignBaseline="@+id/dificil"
+        android:layout_marginEnd="377dp"
+        android:layout_marginRight="377dp"
+        android:layout_toStartOf="@+id/dificil"
+        android:layout_toLeftOf="@+id/dificil"
+        android:text="@string/medio" />
+
+    <Button
+        android:id="@+id/dificil"
+        style="@style/boton_Dificultad"
+        android:layout_below="@+id/texto_botones"
+        android:layout_alignParentRight="true"
+        android:text="@string/dificil" />
+
+
+    <Button
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        style="@style/boton_Ayuda"/>
+
+    <TextView
+        android:id="@+id/record"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginBottom="3dp"
+        android:background="@drawable/recordtview" />
+
+    <TextView
+        android:id="@+id/creador"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="19dp"
+        android:text="Creado por Héctor Carpio"
+        android:textColor="@android:color/white" />
+
+
+    <Button
+        style="@style/estilo_tema"
+        android:id="@+id/temas"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="93dp"
+        android:layout_marginLeft="93dp"/>
+
+
+</RelativeLayout>

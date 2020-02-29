@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">TouchBall</string>
+    <string name="dificultad">Please choose starting level:</string>
+    <string name="facil">Easy</string>
+    <string name="medio">Standard</string>
+    <string name="dificil">Dificult</string>
+
+    <string name="ayuda">Help</string>
+
+    <string name="texto_ayuda">
+
+        The goal of the game is to prevent the ball from falling to the ground by touching the ball with your finger \n\n
+        To push the ball in a specific direction , we will press on the screen in the opposite direction
+        \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
+         Cheer up !!
+
+    </string>
+
+    <string name="volver">back</string>
+
+    <string name="temas">themes</string>
+
+    <string name="btn1">boton1</string>
+
+</resources>

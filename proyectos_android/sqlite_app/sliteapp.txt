@@ -1,0 +1,2 @@
+He conseguido construir un crud en sqlite, adaptando la app a las necesidades
+de una empresa de transporte de pasajeros, la única particularidad es la utilización de un id para actualizar o eliminar.
